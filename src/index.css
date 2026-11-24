@@ -1,0 +1,45 @@
+/* Tailwind v4 entry: theme tokens only (Organic palette). No component styles live here. */
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-display: "Caprasimo", system-ui, sans-serif;
+  --font-sans: "Figtree", system-ui, sans-serif;
+
+  --color-paper: #f5ead8;
+  --color-surface: #ebddc5;
+  --color-ink: #201e1d;
+
+  --color-base-100: #f9f4ed;
+  --color-base-200: #eee7db;
+  --color-base-300: #dcd3c4;
+  --color-base-400: #c0b6a5;
+  --color-base-500: #a19786;
+  --color-base-600: #82796a;
+  --color-base-700: #645c50;
+  --color-base-800: #474238;
+  --color-base-900: #2e2b25;
+
+  --color-real-100: #f0fae1;
+  --color-real-200: #e1eecc;
+  --color-real-300: #ccdbb2;
+  --color-real-400: #aebf92;
+  --color-real-500: #8fa073;
+  --color-real-600: #728157;
+  --color-real-700: #56633f;
+  --color-real-800: #3d472b;
+  --color-real-900: #272e1b;
+
+  --color-fake-100: #fff2eb;
+  --color-fake-200: #ffe1d0;
+  --color-fake-300: #ffc6a5;
+  --color-fake-400: #f6a06b;
+  --color-fake-500: #d67f48;
+  --color-fake-600: #b2622d;
+  --color-fake-700: #8c491a;
+  --color-fake-800: #643312;
+  --color-fake-900: #402310;
+
+  --radius-card: 28px;
+  --shadow-soft: 0 3px 10px color-mix(in srgb, #2e2b25 16%, transparent);
+}
